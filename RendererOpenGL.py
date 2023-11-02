@@ -45,7 +45,7 @@ while isRunning:
                 buffer = glReadPixels(0, 0, *size, GL_RGB, GL_UNSIGNED_BYTE)
                 pg.display.flip()
                 screen_surf = pg.image.fromstring(buffer, size, "RGB", GL_TRUE)
-                pg.image.save(screen_surf, "ouput.jpg")
+                pg.image.save(screen_surf, "output.jpg")
 
     if keys[K_RIGHT]:
         renderer.camPosition.x += deltaTime  * speed

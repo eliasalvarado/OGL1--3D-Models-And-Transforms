@@ -1,0 +1,6 @@
+
+*.pyc
+*.vsidx
+*.sqlite
+*.json
+.vs/OGL1--3D-Models-And-Transforms/v17/.wsuo
